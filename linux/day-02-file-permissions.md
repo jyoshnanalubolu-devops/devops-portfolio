@@ -27,13 +27,14 @@ chmod 755 script.sh
 chmod u+x script.sh
 chmod g-w file.txt
 
+```
 --------------------------------------------------
 
 ## 4. Ownership Commands
 ```bash
 chown user:group file.txt
 chgrp devops file.txt
-
+```
 --------------------------------------------------
 
 ## 5. Umask
@@ -44,18 +45,18 @@ Default Permissions:
 ```bash
 Files → 666 (rw-rw-rw-)
 Directories → 777 (rwxrwxrwx)
-
+```
 Check current umask:
 ```bash
 umask
-
+```
 Umask Example:
 ```bash
 umask 027
 touch secure.txt
 mkdir secure-dir
 ls -l
-
+```
 --------------------------------------------------
 
 ## Real DevOps Scenario
