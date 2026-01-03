@@ -25,7 +25,7 @@ ls -l
 ```
 
 Explanation:
--  -    → Regular file
+-  '-'    → Regular file
 -  rwx  → Owner has read, write, execute
 -  r-x  → Group has read and execute
 -  ---  → Others have no permissions
