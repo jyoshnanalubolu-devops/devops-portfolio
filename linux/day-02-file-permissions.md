@@ -41,16 +41,16 @@ chgrp devops file.txt
 - umask defines the default permission values for newly created files and directories.
 - It works by subtracting permissions from the system default.
 
-Default Permissions:
+### Default Permissions:
 ```bash
 Files → 666 (rw-rw-rw-)
 Directories → 777 (rwxrwxrwx)
 ```
-Check current umask:
+### Check current umask:
 ```bash
 umask
 ```
-Umask Example:
+### Umask Example:
 ```bash
 umask 027
 touch secure.txt
@@ -61,10 +61,10 @@ ls -l
 
 ## Real DevOps Scenario
 
-Problem:
+### Problem:
 An application failed to write logs due to permission issues.
 
-Fix:
+### Fix:
 ```bash
 chown appuser:appgroup /var/log/app
 chmod 775 /var/log/app
