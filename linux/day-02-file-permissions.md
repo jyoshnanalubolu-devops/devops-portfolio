@@ -52,7 +52,6 @@ touch secure.txt
 mkdir secure-dir
 ls -l
 
-
 ---
 ## Real DevOps Scenario
 
