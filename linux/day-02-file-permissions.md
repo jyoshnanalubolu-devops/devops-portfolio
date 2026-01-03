@@ -23,12 +23,12 @@ ls -l
 ```bash
 -rwxr-x--- 1 appuser devops 1024 Jan 3 script.sh
 ```
-Explanation:
-'-'  → Regular file
-'rwx' → Owner has read, write, execute
-'r-x' → Group has read and execute
-'---' → Others have no permissions
 
+Explanation:
+- '-'  → Regular file
+- 'rwx' → Owner has read, write, execute
+- 'r-x' → Group has read and execute
+- '---' → Others have no permissions
 --------------------------------------------------
 
 ## 3. Chmod Examples
