@@ -17,16 +17,22 @@ And 3 entities:
 ```bash
 ls -l
 
+---
+
 ## 3. Chmod Examples
 ```bash
 chmomd 755 script.sh
 chmod u+x script.sh
 chmod g-w file.txt
 
+---
+
 ## 4. Ownership Commands
 ```bash
 chown user:group file.txt
 chgrp devops file.txt
+
+---
 
 ## 5.Umask 
 - umask defines the default permission values for newly created files and directories.
@@ -46,6 +52,8 @@ touch secure.txt
 mkdir secure-dir
 ls -l
 
+
+---
 ## Real DevOps Scenario
 
 An application failed to write logs due to permission issues.
