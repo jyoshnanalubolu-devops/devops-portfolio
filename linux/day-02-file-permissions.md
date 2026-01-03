@@ -25,10 +25,10 @@ ls -l
 ```
 
 Explanation:
-- '-'  → Regular file
-- 'rwx' → Owner has read, write, execute
-- 'r-x' → Group has read and execute
-- '---' → Others have no permissions
+-  -    → Regular file
+-  rwx  → Owner has read, write, execute
+-  r-x  → Group has read and execute
+-  ---  → Others have no permissions
 --------------------------------------------------
 
 ## 3. Chmod Examples
