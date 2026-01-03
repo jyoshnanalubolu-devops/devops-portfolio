@@ -24,10 +24,10 @@ ls -l
 -rwxr-x--- 1 appuser devops 1024 Jan 3 script.sh
 ```
 Explanation:
--   → Regular file
-rwx → Owner has read, write, execute
-r-x → Group has read and execute
---- → Others have no permissions
+'-'  → Regular file
+'rwx' → Owner has read, write, execute
+'r-x' → Group has read and execute
+'---' → Others have no permissions
 
 --------------------------------------------------
 
